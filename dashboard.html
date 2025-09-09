@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream MACHINE - Dashboard</title>
+    <link rel="stylesheet" href="dashboard-styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Left Navigation Bar -->
+        <nav class="sidebar">
+            <div class="logo-section">
+                <div class="logo-icon"></div>
+                <div class="logo-text">
+                    <div class="dream">Dream</div>
+                    <div class="machine">MACHINE</div>
+                </div>
+            </div>
+            
+            <div class="nav-items">
+                <div class="nav-item active">
+                    <div class="nav-icon boards-icon"></div>
+                    <span class="nav-label">BOARDS</span>
+                </div>
+                
+                <div class="nav-item" onclick="window.location.href='ideas.html'">
+                    <div class="nav-icon ideas-icon"></div>
+                    <span class="nav-label">IDEAS</span>
+                </div>
+                
+                <div class="nav-item">
+                    <div class="nav-icon editor-icon"></div>
+                    <span class="nav-label">EDITOR</span>
+                </div>
+            </div>
+            
+            <div class="nav-footer">
+                <div class="nav-icon help-icon"></div>
+                <div class="profile-avatar"></div>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <div class="boards-grid">
+                <!-- Futuristic Interface Card -->
+                <div class="board-card futuristic">
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            <span class="title-main">FUTURISTIC</span>
+                            <span class="title-accent">INTERFACE</span>
+                        </h3>
+                        <p class="ideas-count">16 Ideas</p>
+                    </div>
+                    <div class="card-thumbnail futuristic-thumb"></div>
+                </div>
+
+                <!-- Cosmic Bubble Card -->
+                <div class="board-card cosmic">
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            <span class="title-main">COSMIC</span>
+                            <span class="title-accent">BUBBLE</span>
+                        </h3>
+                        <p class="ideas-count">18 Ideas</p>
+                    </div>
+                    <div class="card-thumbnail cosmic-thumb"></div>
+                </div>
+
+                <!-- Timeless Elegance Card -->
+                <div class="board-card timeless">
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            <span class="title-main">TIMELESS</span>
+                            <span class="title-accent">ELEGANCE</span>
+                        </h3>
+                        <p class="ideas-count">58 Ideas</p>
+                    </div>
+                    <div class="card-thumbnail timeless-thumb"></div>
+                </div>
+
+                <!-- Lily Vibe Lamp Card -->
+                <div class="board-card lily">
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            <span class="title-main">LILY VIBE</span>
+                            <span class="title-accent">LAMP</span>
+                        </h3>
+                        <p class="ideas-count">24 Ideas</p>
+                    </div>
+                    <div class="card-thumbnail lily-thumb"></div>
+                </div>
+            </div>
+
+            <!-- Add Button -->
+            <div class="add-button-container">
+                <button class="add-button">
+                    <span class="plus-icon">+</span>
+                </button>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 
